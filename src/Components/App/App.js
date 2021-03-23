@@ -59,7 +59,6 @@ class App extends React.Component {
           this.setState({allBooks: [...this.state.allBooks].filter(bookmark=>bookmark._id!==id ? bookmark: null), currentPage: "Index"})
         )
   }
-
   setCurrentPageToEdit = (bookmark) => this.setState({ bookmarkToEdit: bookmark, currentPage: "edit" })
   handleSwitchPage = (page) => this.setState({ currentPage: page })
   handleSetCurrent = (id) => this.setState({ currentBook: id, currentPage: "detail" })
