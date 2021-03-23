@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App {
+  /* basic global font size */
+  font-size: 18px;
+}
+
+.navigation-header{
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 1em;
+}
+
+.container{
+  width: 80vw;
+  margin: auto;
+}
